@@ -5,13 +5,14 @@ html, body {
 		margin: 0;
 		overflow: hidden;
 		cursor: default;
-}
-
-html {
 		background: -webkit-linear-gradient(-45deg, rgba(215, 10, 70, 1), rgba(250, 220, 20, 1));
 		background: -moz-linear-gradient(-45deg, rgba(215, 10, 70, 1), rgba(250, 220, 20, 1));
 		background: linear-gradient(-45deg, rgba(250, 220, 20, 0.8), rgba(215, 10, 70, 1));
 		position: fixed;
+}
+
+html {
+		background: darkorange;
 }
 
 a {
