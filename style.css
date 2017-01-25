@@ -38,7 +38,6 @@ h1 {
 }
 
 .center {
-		color: white;
 		position: relative;
 		top: 50%;
 		left: 50%;
@@ -51,17 +50,9 @@ h1 {
 
 .logo {
 		background-image: url(img/logo.svg);
-		background-position: center bottom;
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 32em;
-		height: 20em;
-}
-
-.error {
-		background-image: url(img/404.svg);
-		background-position: center bottom;
-		background-repeat: no-repeat;
-		background-size: 32em;
+		background-size: auto 20em;
 		height: 20em;
 }
 
