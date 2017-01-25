@@ -1,12 +1,28 @@
-@media screen and (min-width:700px) {
+@media screen and (min-width:900px) {
+	.logo {
+		background-size: auto 24em;
+		height: 24em;
+  }
+	a {
+		background-size: 7.5em;
+		width: 7.5em;
+		height: 7.5em;
+		margin: 1em;
+	}
+	br {
+		display: none;
+	}
+}
+
+@media screen and (min-width:700px) and (max-width:899px) {
 	.logo {
 		background-size: auto 20em;
 		height: 20em;
   }
 	a {
-		background-size: 6.5em;
-		width: 6.5em;
-		height: 6.5em;
+		background-size: 6em;
+		width: 6em;
+		height: 6em;
 		margin: 1em;
 	}
 	br {
