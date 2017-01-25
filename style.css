@@ -8,14 +8,16 @@ html, body {
 }
 
 html {
-		background: linear-gradient(-45deg, rgba(250, 220, 20, 0.8), rgba(215, 10, 70, 1));
 		background: -webkit-linear-gradient(-45deg, rgba(215, 10, 70, 1), rgba(250, 220, 20, 1));
+		background: -moz-linear-gradient(-45deg, rgba(215, 10, 70, 1), rgba(250, 220, 20, 1));
+		background: linear-gradient(-45deg, rgba(250, 220, 20, 0.8), rgba(215, 10, 70, 1));
 		position: fixed;
 }
 
 a {
 		display: inline-block;
 		-webkit-transition: -webkit-transform 0.5s ease, -webkit-filter 0.5s ease;
+		-moz-transition: -moz-transform 0.5s ease, -moz-filter 0.5s ease;
 		transition: transform 0.5s ease, filter 0.5s ease;
 		background-repeat: no-repeat;
 		border-radius: 50%;
@@ -23,6 +25,7 @@ a {
 
 a:hover {
 		-webkit-transform: scale(1.1);
+		-moz-transform: scale(1.1);
 		transform: scale(1.1);
 		border-radius: 50%;
 		cursor: pointer;
@@ -40,8 +43,10 @@ h1 {
 		left: 50%;
 		text-align: center;
 		-webkit-transform: translateY(-50%) translateX(-50%);
+		-moz-transform: translateY(-50%) translateX(-50%);
 		transform: translateY(-50%) translateX(-50%);
 		-webkit-filter: drop-shadow(0.5em 0.5em 1em rgba(0, 0, 0, 0.3));
+		-moz-filter: drop-shadow(0.5em 0.5em 1em rgba(0, 0, 0, 0.3));
 		filter: drop-shadow(0.5em 0.5em 1em rgba(0, 0, 0, 0.3));
 }
 
